@@ -39,5 +39,33 @@ input{
  
 .btn-con{
     display: flex;
-    border: 1px solid black
+    border: 1px solid black;
+    height: 66%;
+}
+
+.btn-num{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 60%;
+}
+
+.btn-opr{
+
+    border: 1px solid black;
+    width: 40%;
+}
+
+#num-el{
+    display: grid;
+    grid-template-columns: repeat(3,70px);
+    gap: 5px;
+    cursor: pointer;
+}
+
+#opt-el{
+     display: grid;
+    grid-template-columns: repeat(3);
+    gap: 2px;
+    cursor: pointer;
 }
