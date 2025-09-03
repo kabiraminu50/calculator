@@ -10,17 +10,20 @@ body{
 }
 
 .calcon{
-    border: 1px solid black;
+    border: none solid black;
     width: 400px;
     height: 500px;
     background-color: wheat;
+    border-radius: 8px;
+
+    
 }
 
 .displacon{
     display: flex;
     justify-content: end;
     align-items: end;
-    border: 1px solid black;
+    border: none solid black;
     width: 300px;
     height: 100px;
     background-color: whitesmoke;
@@ -39,20 +42,20 @@ input{
  
 .btn-con{
     display: flex;
-    border: 1px solid black;
+    border: none solid black;
     height: 66%;
 }
 
 .btn-num{
     display: flex;
     justify-content: center;
-    border: 1px solid black;
+    border: none solid black;
     width: 60%;
 }
 
 .btn-opr{
 
-    border: 1px solid black;
+    border: none solid black;
     width: 40%;
 }
 
@@ -68,4 +71,8 @@ input{
     grid-template-columns: repeat(3);
     gap: 2px;
     cursor: pointer;
+}
+
+.title{
+    text-align: center;
 }
